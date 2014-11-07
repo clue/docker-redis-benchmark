@@ -28,7 +28,7 @@ This is a rather common setup following docker's conventions:
 
 * `-it` will run an interactive session that can be terminated with CTRL+C
 * `--rm` will run a temporary session that will make sure to remove the container on exit
-* `--link {NameOfContainerToBenchmark}:redis` should be passed to mount the given KeePass file into the container
+* `--link {NameOfContainerToBenchmark}:redis` has to be passed to address the redis instance to run the benchmark against
 * `clue/redis-benchmark` the name of this docker image
 
 ### Help
